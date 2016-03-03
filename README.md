@@ -89,30 +89,38 @@ instead of interfaces by adapting functional interfaces on the fly.
 
 An example:
 ```java
-  interface TinyJApi {
-    interface FunctionalInterfaceTakingAnInt {
-      void acceptThatInt(int i);
-    }
-    void aFunction(TinyJsFunctionInterfaceTakingAString in);
+interface TinyJApi {
+  @FunctionalInterface interface IntAccepter {
+    void acceptThatInt(int i);
   }
+  void aFunction(IntAccepter in);
+}
 
-  interface ThatOtherApi {
-    interface FunctionalInterfaceTakingAnInt {
-      void takeThatInt(int i);
-    }
-    FunctionalInterfaceTakingAnInt thatOtherFunction();
+interface ThatOtherApi {
+  @FunctionalInterface interface IntTaker {
+    void takeThatInt(int i);
   }
+  IntTaker thatOtherFunction();
+}
 
-  class MyCode {
-    void bringingThingsTogether() {
-      TinyJsAPI.aFunction(ThatOtherApi.thatOtherFunction()::takeThatInt);
-    }
+class MyCode {
+  TinyJApi tinyJApi;
+  ThatOtherApi thatOtherApi;
+
+  void bringingThingsTogether() {
+    tinyJApi.aFunction(
+      thatOtherApi.thatOtherFunction()::takeThatInt);
   }
+}
 ```
 
-It doesn't get easier than this. With code completion you don't even have
-to remember that ```takeThatInt``` bit. TinyJ enables this integration
-pattern by using functional interfaces whenever it's sensible.
+It doesn't get easier than this and obviously it just works the other way
+around. And by the way, the `@FunctionalInterface` annotation in purely
+optional here and with code completion you don't even have to remember that
+```takeThatInt``` bit.
+
+TinyJ enables this integration pattern by using
+functional interfaces whenever it's sensible.
 
 
 ### Clean code
