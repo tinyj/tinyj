@@ -1,9 +1,9 @@
+
 # TinyJ
 
-TinyJ is not yet-another Java-framework. It's a collection of libraries not
-sharing interfaces and classes but concepts. The goal is to cover many of your
-daily java needs
-
+TinyJ is not yet-another Java-framework, it's collection of java libraries
+sharing not interfaces and classes but concepts. The main objective is to
+provide independently usable artifacts covering many of your daily java needs.
 
 
 ## Goals
