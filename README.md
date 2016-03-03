@@ -145,6 +145,9 @@ version) in order provide new features and improve on those upstream changes.
 [Semantic Versioning](http://semver.org) is used to communicate such changes.
 
 There will be bugfix releases for previous major versions as time permits.
+Within a TinyJ project different major releases are treated as independent
+codebases sharing a common goal and mindset.
+
 
 ### Shade
 
