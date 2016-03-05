@@ -1,7 +1,7 @@
 
 # TinyJ
 
-TinyJ is not yet-another Java-framework, it's collection of java libraries
+TinyJ is not yet-another Java-framework, it is a collection of java libraries
 sharing not interfaces and classes but concepts. The main objective is to
 provide independently usable artifacts covering many of your daily java needs.
 
@@ -183,3 +183,19 @@ optionally be accompanied with tinyj-web-mvc).
 
 Inspired by [TinyDI](https://github.com/jonaash/tinydi) tinyj-di aims to be
 yet another [JSR 330](https://jcp.org/en/jsr/detail?id=330) implementation.
+
+
+
+## License
+
+If not stated otherwise all files are released under the terms of the Apache
+License 2.0. You may not use any file except in compliance with the License.
+You may obtain a copy of the License at
+
+<http://www.apache.org/licenses/LICENSE-2.0>
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
