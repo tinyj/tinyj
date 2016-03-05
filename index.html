@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Tinyj by tinyj</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Tinyj</h1>
+      <h2 class="project-tagline">TinyJ is not yet-another Java-framework, it&#39;s collection of java libraries sharing not interfaces and classes but concepts. The main objective is to provide independently usable artifacts covering many of your daily java needs.</h2>
+      <a href="https://github.com/tinyj/tinyj" class="btn">View on GitHub</a>
+      <a href="https://github.com/tinyj/tinyj/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/tinyj/tinyj/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="tinyj" class="anchor" href="#tinyj" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TinyJ</h1>
+
+<p>TinyJ is not yet-another Java-framework, it's collection of java libraries
+sharing not interfaces and classes but concepts. The main objective is to
+provide independently usable artifacts covering many of your daily java needs.</p>
+
+<h2>
+<a id="goals" class="anchor" href="#goals" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Goals</h2>
+
+<h3>
+<a id="choice-of-weapons" class="anchor" href="#choice-of-weapons" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Choice of weapons</h3>
+
+<p>It should up to you to decide which parts of TinyJ you want to use.</p>
+
+<h3>
+<a id="express-yourself" class="anchor" href="#express-yourself" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Express yourself</h3>
+
+<p>TinyJ aims to help you to express your self easily yet concisely in java code.</p>
+
+<h3>
+<a id="connect" class="anchor" href="#connect" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Connect</h3>
+
+<p>Integrating TinyJ into you code and connecting it to third party libraries
+should be easy and non intrusive.</p>
+
+<h3>
+<a id="being-understood" class="anchor" href="#being-understood" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Being understood</h3>
+
+<p>TinyJ aims to keep it's own codebase readable and comprehensible.</p>
+
+<h3>
+<a id="small-footprint" class="anchor" href="#small-footprint" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Small footprint</h3>
+
+<p>As the name suggests, each TinyJ project aims to keep it's footprint small.
+This encompasses artifact size, memory and cpu usage. Obviously there will be
+trade-offs. As for artifact size this means well below 1Mbyte.</p>
+
+<h2>
+<a id="concepts" class="anchor" href="#concepts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Concepts</h2>
+
+<h3>
+<a id="kiss" class="anchor" href="#kiss" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>KISS</h3>
+
+<h4>
+<a id="simple-scope" class="anchor" href="#simple-scope" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>simple scope</h4>
+
+<p>Each TinyJ project covers a very specific use case giving you the choice of
+what to take and what to leave. This also helps to keep the TinyJ codebase the
+modular and comprehensible.</p>
+
+<h4>
+<a id="simple-usage-aka-no-magic" class="anchor" href="#simple-usage-aka-no-magic" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>simple usage (aka no magic)</h4>
+
+<p>TinyJ tries not to be smart about what you want. Instead it tries to give you
+the means necessary to express your self easily yet concisely.</p>
+
+<h4>
+<a id="simply-readable" class="anchor" href="#simply-readable" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>simply readable</h4>
+
+<p>TinyJ code should be readable and easily navigable.</p>
+
+<h3>
+<a id="integrable-but-not-integrated" class="anchor" href="#integrable-but-not-integrated" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Integrable but not integrated</h3>
+
+<p>Integration should happen as much high level as possible, again leaving as
+much room for choice as possible. To make that feasible TinyJ tries hard to
+make integration as seamless and painless as possible and to keep third party
+libraries out.</p>
+
+<h2>
+<a id="principles" class="anchor" href="#principles" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Principles</h2>
+
+<h3>
+<a id="solid" class="anchor" href="#solid" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>soLid</h3>
+
+<p>The <a href="https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)">SOLID</a>
+principles shall apply to all of TinyJ's codebase with a strong emphasize on
+Liskov's substitution principle. It's awesome. Really, it is.</p>
+
+<h3>
+<a id="use-standard-components" class="anchor" href="#use-standard-components" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Use standard components</h3>
+
+<p>Java's JRE is rich with abstractions and interfaces readily available in
+(almost) every java based project. TinyJ builds on top of that wherever it
+can. This keeps integrating TinyJ simple and seamless.</p>
+
+<p>And if the JRE is not enough there are even more in the  <code>javax</code> namespace.</p>
+
+<h3>
+<a id="lambda-integration" class="anchor" href="#lambda-integration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Lambda integration</h3>
+
+<p>Java 8 lambdas are just giving us a neat syntax for defining inline functions,
+they give us also a very useful tool to integrate things based on concepts
+instead of interfaces by adapting functional interfaces on the fly.</p>
+
+<p>An example:</p>
+
+<div class="highlight highlight-source-java"><pre><span class="pl-k">interface</span> <span class="pl-en">TinyJApi</span> {
+  <span class="pl-k">@FunctionalInterface</span> <span class="pl-k">interface</span> <span class="pl-en">IntAccepter</span> {
+    <span class="pl-k">void</span> <span class="pl-en">acceptThatInt</span>(<span class="pl-k">int</span> <span class="pl-v">i</span>);
+  }
+  <span class="pl-k">void</span> <span class="pl-en">aFunction</span>(<span class="pl-smi">IntAccepter</span> <span class="pl-v">in</span>);
+}
+
+<span class="pl-k">interface</span> <span class="pl-en">ThatOtherApi</span> {
+  <span class="pl-k">@FunctionalInterface</span> <span class="pl-k">interface</span> <span class="pl-en">IntTaker</span> {
+    <span class="pl-k">void</span> <span class="pl-en">takeThatInt</span>(<span class="pl-k">int</span> <span class="pl-v">i</span>);
+  }
+  <span class="pl-smi">IntTaker</span> <span class="pl-en">thatOtherFunction</span>();
+}
+
+<span class="pl-k">class</span> <span class="pl-en">MyCode</span> {
+  <span class="pl-smi">TinyJApi</span> tinyJApi;
+  <span class="pl-smi">ThatOtherApi</span> thatOtherApi;
+
+  <span class="pl-k">void</span> <span class="pl-en">bringingThingsTogether</span>() {
+    tinyJApi<span class="pl-k">.</span>aFunction(
+      thatOtherApi<span class="pl-k">.</span>thatOtherFunction()<span class="pl-k">::</span>takeThatInt);
+  }
+}</pre></div>
+
+<p>It doesn't get easier than this and obviously it just works the other way
+around. And by the way, the <code>@FunctionalInterface</code> annotation in purely
+optional here and with code completion you don't even have to remember that
+<code>takeThatInt</code> bit.</p>
+
+<p>TinyJ enables this integration pattern by using
+functional interfaces whenever it's sensible.</p>
+
+<h3>
+<a id="clean-code" class="anchor" href="#clean-code" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Clean code</h3>
+
+<p>TinyJ's codebase tries to follow the rules from
+<a href="https://books.google.com/books/about/Clean_Code.html?id=dwSfGQAACAAJ" title="Clean Code @ books.google.com">"Clean Code"</a>
+as faithful as possible.</p>
+
+<h3>
+<a id="tested" class="anchor" href="#tested" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tested</h3>
+
+<p>Everything released from TinyJ passed a carefully created test suite.
+Bugfixes should include new tests, linked to the github issue, proving that
+the Bug is gone.</p>
+
+<h3>
+<a id="semantic-versioning" class="anchor" href="#semantic-versioning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Semantic Versioning</h3>
+
+<p>Being committed to standard components and keeping things simple TinyJ needs
+to break things from time to time (like whenever there is a hot new Java
+version) in order provide new features and improve on those upstream changes.
+<a href="http://semver.org">Semantic Versioning</a> is used to communicate such changes.</p>
+
+<p>There will be bugfix releases for previous major versions as time permits.
+Within a TinyJ project different major releases are treated as independent
+codebases sharing a common goal and mindset.</p>
+
+<h3>
+<a id="shade" class="anchor" href="#shade" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Shade</h3>
+
+<p>Sometimes there is the really nagging desire to use some small third party
+library (like TinyJ :) ). By shading these dependencies TinyJ keeps you
+blissfully unaware of such internal details.</p>
+
+<h2>
+<a id="things-to-come" class="anchor" href="#things-to-come" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Things to come</h2>
+
+<h3>
+<a id="tinyj-web-mvc-32kbytes" class="anchor" href="#tinyj-web-mvc-32kbytes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>tinyj-web-mvc (~32Kbytes)</h3>
+
+<p>TinyJ will start soon (before end of March 2016) with yet another Web MVC
+implementation. It's in polishing now so stay tuned.</p>
+
+<h3>
+<a id="tinyj-test-servlet-16kbytes" class="anchor" href="#tinyj-test-servlet-16kbytes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>tinyj-test-servlet (~16Kbytes)</h3>
+
+<p>Mock implementation for HttpServletRequest and HttpServletResponse. A preview
+will accompany the tinyj-web-mvc release as it's used in the testsuite.</p>
+
+<h3>
+<a id="tinyj-web-server-in-planning" class="anchor" href="#tinyj-web-server-in-planning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>tinyj-web-server (in planning)</h3>
+
+<p>Finding that tinyj-test-servlet HttpServletRequest an HttpServletResponse
+implementations give you almost everything needed to implement the HTTProtocol
+let's lift that into a minimal viable HTTP server implementation (may
+optionally be accompanied with tinyj-web-mvc).</p>
+
+<h3>
+<a id="tinyj-di-in-planning" class="anchor" href="#tinyj-di-in-planning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>tinyj-di (in planning)</h3>
+
+<p>Inspired by <a href="https://github.com/jonaash/tinydi">TinyDI</a> tinyj-di aims to be
+yet another <a href="https://jcp.org/en/jsr/detail?id=330">JSR 330</a> implementation.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/tinyj/tinyj">Tinyj</a> is maintained by <a href="https://github.com/tinyj">tinyj</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
