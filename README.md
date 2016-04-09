@@ -1,10 +1,10 @@
 
 # TinyJ
 
-TinyJ is not yet-another Java-framework, it is a collection of java libraries
+TinyJ is not yet-another Java-framework, it is a collection of Java libraries
 sharing not interfaces and classes but concepts. The main objective is to
 provide independently usable artifacts covering many of your daily java needs.
-
+You may think of it as Lego® building blocks for Java™.
 
 ## Goals
 
@@ -157,19 +157,22 @@ blissfully unaware of such internal details.
 
 
 
+## Releases
+
+### [TinyJ WebMVC](https://github.com/tinyj/tinyj-web-mvc)
+
+A container agnostic web model-view-controller and request routing
+implementation.
+
+
+### [TinyJ ServletTest](https://github.com/tinyj/tinyj-servlet-test)
+
+Mocks for HttpServletRequest and HttpServletResponse to facilitate testing of
+Servlets. This code is currently in preview state with a snapshot release.
+
+
+
 ## Things to come
-
-### tinyj-web-mvc (~32Kbytes)
-
-TinyJ will start soon (before end of March 2016) with yet another Web MVC
-implementation. It's in polishing now so stay tuned.
-
-
-### tinyj-test-servlet (~16Kbytes)
-
-Mock implementation for HttpServletRequest and HttpServletResponse. A preview
-will accompany the tinyj-web-mvc release as it's used in the testsuite.
-
 
 ### tinyj-web-server (in planning)
 
